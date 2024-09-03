@@ -1100,7 +1100,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azure/core-client@npm:^1.3.0, @azure/core-client@npm:^1.4.0, @azure/core-client@npm:^1.6.2":
+"@azure/core-client@npm:^1.3.0, @azure/core-client@npm:^1.6.2, @azure/core-client@npm:^1.9.2":
   version: 1.9.2
   resolution: "@azure/core-client@npm:1.9.2"
   dependencies:
@@ -1193,24 +1193,24 @@ __metadata:
   linkType: hard
 
 "@azure/identity@npm:^4.0.0":
-  version: 4.2.0
-  resolution: "@azure/identity@npm:4.2.0"
+  version: 4.4.1
+  resolution: "@azure/identity@npm:4.4.1"
   dependencies:
     "@azure/abort-controller": ^1.0.0
     "@azure/core-auth": ^1.5.0
-    "@azure/core-client": ^1.4.0
+    "@azure/core-client": ^1.9.2
     "@azure/core-rest-pipeline": ^1.1.0
     "@azure/core-tracing": ^1.0.0
     "@azure/core-util": ^1.3.0
     "@azure/logger": ^1.0.0
-    "@azure/msal-browser": ^3.11.1
-    "@azure/msal-node": ^2.6.6
+    "@azure/msal-browser": ^3.14.0
+    "@azure/msal-node": ^2.9.2
     events: ^3.0.0
     jws: ^4.0.0
     open: ^8.0.0
     stoppable: ^1.1.0
     tslib: ^2.2.0
-  checksum: b1b336113c944abf89376f366bf8e82958617465c91e561e922c165a10aaa1789e83a78b7baa070671247d0f97c63b4cc89cf6cabc72258f3d9cbe12fe799e2a
+  checksum: 8dba5a1e347b349eb999e46cce190dedef02c0a81a179d4c4bf67ea4407c9f44ace5eec08f1ac8c963f8723e1074d32a9878a0ae5d4d4a880b19389b5fb6e7a1
   languageName: node
   linkType: hard
 
@@ -1223,30 +1223,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@azure/msal-browser@npm:^3.11.1":
-  version: 3.16.0
-  resolution: "@azure/msal-browser@npm:3.16.0"
+"@azure/msal-browser@npm:^3.14.0":
+  version: 3.22.0
+  resolution: "@azure/msal-browser@npm:3.22.0"
   dependencies:
-    "@azure/msal-common": 14.11.0
-  checksum: 8bba704b6d1e2862405697672547fa266037ae01570368631c7b698ac2837900fecaaa6622e3d4a3469fcfd4b3e20f07d4296f271556cbd097d601f85aaf1528
+    "@azure/msal-common": 14.14.2
+  checksum: c4cafe70fc48c2db5cd0f2bbb22ae3c0b38817918af940971c9d2e15ab7edf6a54311be641e86b4b42fe0cef4f14340744775b1b06fcf66e2f55bb92406018e9
   languageName: node
   linkType: hard
 
-"@azure/msal-common@npm:14.11.0":
-  version: 14.11.0
-  resolution: "@azure/msal-common@npm:14.11.0"
-  checksum: 54d2d118aa937829bf76a8ca8f0a8bd5115abcd6b52419e78a8dbdf7732b1781d6cc09873dcc7210319529f9a0e99b3acc33738fbc656713c983b25eb5a3aee2
+"@azure/msal-common@npm:14.14.2":
+  version: 14.14.2
+  resolution: "@azure/msal-common@npm:14.14.2"
+  checksum: 72698e3ec359954c918b11d86e38e1451efabd7062f40a35c3b703acae78fbfeb0c1074e8ae740755f02782d264bef0dc30c3d074c153bf87d552f804d6ccd71
   languageName: node
   linkType: hard
 
-"@azure/msal-node@npm:^2.6.6":
-  version: 2.9.1
-  resolution: "@azure/msal-node@npm:2.9.1"
+"@azure/msal-node@npm:^2.9.2":
+  version: 2.13.1
+  resolution: "@azure/msal-node@npm:2.13.1"
   dependencies:
-    "@azure/msal-common": 14.11.0
+    "@azure/msal-common": 14.14.2
     jsonwebtoken: ^9.0.0
     uuid: ^8.3.0
-  checksum: aaa350346d24637a507db707193c1002c2710824373f81284582acb5a2dd53c53031c7f28f2f42966ead22b373677145de683164128882019c44ef0b87a18e89
+  checksum: fb7df660fabd5cc337adb4fa9a72004997afaf8d7f14259906b4428d8244810031d6362764c08e4033b0f2533abed11a72a8213897e8058298c3871b0da3da39
   languageName: node
   linkType: hard
 
@@ -6391,12 +6391,12 @@ __metadata:
   linkType: hard
 
 "@grpc/grpc-js@npm:~1.10.3":
-  version: 1.10.8
-  resolution: "@grpc/grpc-js@npm:1.10.8"
+  version: 1.10.11
+  resolution: "@grpc/grpc-js@npm:1.10.11"
   dependencies:
     "@grpc/proto-loader": ^0.7.13
     "@js-sdsl/ordered-map": ^4.4.2
-  checksum: 498d144016eac26fc069bc57d649bf4776ae6bd1a24e62823a8b07b7d39a4414caa72a799f8287278b79e11ec4ecf989dbac01518c3981d8f947db15916c6727
+  checksum: 6e7e50b11a178c49a425452e20977df5a718469fbc9374246b83145a2ad74a9c5560d5afa32405faca326f0853dd86abc2550df5bff682b9831b529623ce3b68
   languageName: node
   linkType: hard
 
@@ -11677,17 +11677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-scope@npm:^3.7.3":
-  version: 3.7.7
-  resolution: "@types/eslint-scope@npm:3.7.7"
-  dependencies:
-    "@types/eslint": "*"
-    "@types/estree": "*"
-  checksum: e2889a124aaab0b89af1bab5959847c5bec09809209255de0e63b9f54c629a94781daa04adb66bffcdd742f5e25a17614fb933965093c0eea64aacda4309380e
-  languageName: node
-  linkType: hard
-
-"@types/eslint@npm:*, @types/eslint@npm:^8.56.10":
+"@types/eslint@npm:^8.56.10":
   version: 8.56.10
   resolution: "@types/eslint@npm:8.56.10"
   dependencies:
@@ -13000,12 +12990,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"acorn-import-assertions@npm:^1.9.0":
-  version: 1.9.0
-  resolution: "acorn-import-assertions@npm:1.9.0"
+"acorn-import-attributes@npm:^1.9.5":
+  version: 1.9.5
+  resolution: "acorn-import-attributes@npm:1.9.5"
   peerDependencies:
     acorn: ^8
-  checksum: 944fb2659d0845c467066bdcda2e20c05abe3aaf11972116df457ce2627628a81764d800dd55031ba19de513ee0d43bb771bc679cc0eda66dc8b4fade143bc0c
+  checksum: 1c0c49b6a244503964ae46ae850baccf306e84caf99bc2010ed6103c69a423987b07b520a6c619f075d215388bd4923eccac995886a54309eda049ab78a4be95
   languageName: node
   linkType: hard
 
@@ -13850,6 +13840,13 @@ __metadata:
   version: 0.7.0
   resolution: "aws-sign2@npm:0.7.0"
   checksum: b148b0bb0778098ad8cf7e5fc619768bcb51236707ca1d3e5b49e41b171166d8be9fdc2ea2ae43d7decf02989d0aaa3a9c4caa6f320af95d684de9b548a71525
+  languageName: node
+  linkType: hard
+
+"aws-ssl-profiles@npm:^1.1.1":
+  version: 1.1.2
+  resolution: "aws-ssl-profiles@npm:1.1.2"
+  checksum: bfcf9b2cbb9788e24e4af39a1e8b4a8afbdf65773b6a1636e643c10068ffbae46b28277c4c9f9321179400b2080092db040ba4513f9143f22d1bb053a12dab2b
   languageName: node
   linkType: hard
 
@@ -17198,8 +17195,8 @@ __metadata:
   linkType: hard
 
 "elliptic@npm:^6.5.3, elliptic@npm:^6.5.5":
-  version: 6.5.5
-  resolution: "elliptic@npm:6.5.5"
+  version: 6.5.7
+  resolution: "elliptic@npm:6.5.7"
   dependencies:
     bn.js: ^4.11.9
     brorand: ^1.1.0
@@ -17208,7 +17205,7 @@ __metadata:
     inherits: ^2.0.4
     minimalistic-assert: ^1.0.1
     minimalistic-crypto-utils: ^1.0.1
-  checksum: ec9105e4469eb3b32b0ee2579756c888ddf3f99d259aa0d65fccb906ee877768aaf8880caae73e3e669c9a4adeb3eb1945703aa974ec5000d2d33a239f4567eb
+  checksum: af0ffddffdbc2fea4eeec74388cd73e62ed5a0eac6711568fb28071566319785df529c968b0bf1250ba4bc628e074b2d64c54a633e034aa6f0c6b152ceb49ab8
   languageName: node
   linkType: hard
 
@@ -17272,13 +17269,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.16.0":
-  version: 5.17.0
-  resolution: "enhanced-resolve@npm:5.17.0"
+"enhanced-resolve@npm:^5.17.1":
+  version: 5.17.1
+  resolution: "enhanced-resolve@npm:5.17.1"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.2.0
-  checksum: 1066000454da6a7aeabdbe1f433d912d1e39e6892142a78a37b6577aab27e0436091fa1399d857ad87085b1c3b73a0f811c8874da3dbdc40fbd5ebe89a5568e6
+  checksum: 4bc38cf1cea96456f97503db7280394177d1bc46f8f87c267297d04f795ac5efa81e48115a2f5b6273c781027b5b6bfc5f62b54df629e4d25fa7001a86624f59
   languageName: node
   linkType: hard
 
@@ -18401,9 +18398,9 @@ __metadata:
   linkType: hard
 
 "fast-loops@npm:^1.1.3":
-  version: 1.1.3
-  resolution: "fast-loops@npm:1.1.3"
-  checksum: b674378ba2ed8364ca1a00768636e88b22201c8d010fa62a8588a4cace04f90bac46714c13cf638be82b03438d2fe813600da32291fb47297a1bd7fa6cef0cee
+  version: 1.1.4
+  resolution: "fast-loops@npm:1.1.4"
+  checksum: 8031a20f465ef35ac4ad98258470250636112d34f7e4efcb4ef21f3ced99df95a1ef1f0d6943df729a1e3e12a9df9319f3019df8cc1a0e0ed5a118bd72e505f9
   languageName: node
   linkType: hard
 
@@ -23785,12 +23782,12 @@ __metadata:
   linkType: hard
 
 "micromatch@npm:^4.0.2, micromatch@npm:^4.0.4, micromatch@npm:^4.0.5":
-  version: 4.0.7
-  resolution: "micromatch@npm:4.0.7"
+  version: 4.0.8
+  resolution: "micromatch@npm:4.0.8"
   dependencies:
     braces: ^3.0.3
     picomatch: ^2.3.1
-  checksum: 3cde047d70ad80cf60c787b77198d680db3b8c25b23feb01de5e2652205d9c19f43bd81882f69a0fd1f0cde6a7a122d774998aad3271ddb1b8accf8a0f480cf7
+  checksum: 79920eb634e6f400b464a954fcfa589c4e7c7143209488e44baf627f9affc8b1e306f41f4f0deedde97e69cb725920879462d3e750ab3bd3c1aed675bb3a8966
   languageName: node
   linkType: hard
 
@@ -24275,9 +24272,10 @@ __metadata:
   linkType: hard
 
 "mysql2@npm:^3.0.0":
-  version: 3.10.0
-  resolution: "mysql2@npm:3.10.0"
+  version: 3.11.0
+  resolution: "mysql2@npm:3.11.0"
   dependencies:
+    aws-ssl-profiles: ^1.1.1
     denque: ^2.1.0
     generate-function: ^2.3.1
     iconv-lite: ^0.6.3
@@ -24286,7 +24284,7 @@ __metadata:
     named-placeholders: ^1.1.3
     seq-queue: ^0.0.5
     sqlstring: ^2.3.2
-  checksum: 4306de21317a05fcd4bbf28679e6b61b5e3421f7b8e2813ce7be8a06a8f7f4e09067bbd77507de465aba59a5742d1c48a3ed1038e96fb76935d24e1648d4b9c3
+  checksum: 0a3e80c95ca9e26821bc11658cbd065704d5f07f76efd952fc84115cc28f8a0100f14646fb3dd577f28831b8d6d2bfe0ef46fd4273ba5dcbfbeabb311302874d
   languageName: node
   linkType: hard
 
@@ -31773,19 +31771,18 @@ __metadata:
   linkType: hard
 
 "webpack@npm:^5.70.0":
-  version: 5.91.0
-  resolution: "webpack@npm:5.91.0"
+  version: 5.94.0
+  resolution: "webpack@npm:5.94.0"
   dependencies:
-    "@types/eslint-scope": ^3.7.3
     "@types/estree": ^1.0.5
     "@webassemblyjs/ast": ^1.12.1
     "@webassemblyjs/wasm-edit": ^1.12.1
     "@webassemblyjs/wasm-parser": ^1.12.1
     acorn: ^8.7.1
-    acorn-import-assertions: ^1.9.0
+    acorn-import-attributes: ^1.9.5
     browserslist: ^4.21.10
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.16.0
+    enhanced-resolve: ^5.17.1
     es-module-lexer: ^1.2.1
     eslint-scope: 5.1.1
     events: ^3.2.0
@@ -31805,7 +31802,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: f1073715dbb1ed5c070affef293d800a867708bcbc5aba4d8baee87660e0cf53c55966a6f36fab078d1d6c9567cdcd0a9086bdfb607cab87ea68c6449791b9a3
+  checksum: 6a3d667be304a69cd6dcb8d676bc29f47642c0d389af514cfcd646eaaa809961bc6989fc4b2621a717dfc461130f29c6e20006d62a32e012dafaa9517813a4e6
   languageName: node
   linkType: hard
 
@@ -32102,8 +32099,8 @@ __metadata:
   linkType: hard
 
 "ws@npm:^7.4.6":
-  version: 7.5.9
-  resolution: "ws@npm:7.5.9"
+  version: 7.5.10
+  resolution: "ws@npm:7.5.10"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ^5.0.2
@@ -32112,7 +32109,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: c3c100a181b731f40b7f2fddf004aa023f79d64f489706a28bc23ff88e87f6a64b3c6651fbec3a84a53960b75159574d7a7385709847a62ddb7ad6af76f49138
+  checksum: f9bb062abf54cc8f02d94ca86dcd349c3945d63851f5d07a3a61c2fcb755b15a88e943a63cf580cbdb5b74436d67ef6b67f745b8f7c0814e411379138e1863cb
   languageName: node
   linkType: hard
 
